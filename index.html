@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>Sekarang branch main santech perubahan</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @media only screen and (max-width: 600px) {
+        .section {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-rows: 50px 1fr 1fr;
+          grid-template-areas:
+            "header header header header"
+            "aside . main"
+            "footer footer footer footer";
+        }
+
+        body {
+          background-color: lightblue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    Sekarang branch main santech perubahan
+  </body>
 </html>
